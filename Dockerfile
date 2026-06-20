@@ -1,4 +1,4 @@
-FROM python:3.9.2-slim-buster
+FROM python:3.11-slim
 ENV DEBIAN_FRONTEND=noninteractive
 ENV TZ="Asia/Kolkata"
 RUN apt -qq update && apt -qq install -y aria2 ffmpeg mediainfo tzdata git wget zip unzip build-essential
